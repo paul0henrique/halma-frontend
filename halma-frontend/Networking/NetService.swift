@@ -23,7 +23,7 @@ protocol NetService: AnyObject {
     func sendChat(_ text: String)
 
     // Fluxos da partida
-    func sendReset()                // reset normal 10×10 (somente online)
+    func sendReset()                // reset normal 10×10 (somente on-line)
     func sendResign()               // desistir
 
     // Debug (separado do reset)
